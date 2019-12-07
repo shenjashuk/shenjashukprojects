@@ -4,6 +4,6 @@ int main()
 {
 	int x;
 	cin >> x;
-	cout << X*x*x*x*x;
+	cout << x*x*x*x*x;
 	return 0;
 }
