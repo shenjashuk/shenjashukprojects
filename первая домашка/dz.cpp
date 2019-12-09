@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 int poe(int x,int y) {
+	int res=1;
 	for (int i = 0; i < y;i++) {
-		x *= x;
+		res *= x;
 	}
-	return x;
+	return res;
 }
 main{
 	int x;
