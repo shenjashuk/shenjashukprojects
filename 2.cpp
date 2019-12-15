@@ -7,8 +7,10 @@ int main(){
 	cin >> a >> b >> x >> y;
 	int mult = 1, sum = 0;
 	for (int i = a; i <= b; i++) {
+		if(i%2==0){
 		if (i % 3 == 0) {
 			mult *= i;
+		}
 		}
 	}
 	if (mult != 1) {
@@ -18,7 +20,7 @@ int main(){
 		cout << "0";
 	}
 	cout << "\n";
-	for (int i = x; i < y; i++) {
+	for (int i = x; i <= y; i++) {
 		if (i % 13 == 0) {
 			sum += i;
 		}
