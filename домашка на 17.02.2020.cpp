@@ -115,6 +115,7 @@ int main()
 			for (int i = 0; i < n;i++) {
 				cout << student[i].fullname<<" ";
 			}
+				cout <<"\n";
 			break;
 		case 5:
 			return 0;
